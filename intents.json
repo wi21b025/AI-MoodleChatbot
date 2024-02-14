@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hallo",
+        "Guten Tag",
+        "Hi",
+        "Hey",
+        "Guten Morgen",
+        "Guten Abend",
+        "Servus",
+        "Grüß Gott"
+
+      ],
+      "responses": [
+        "Hallo! Wie kann ich Ihnen helfen?",
+        "Hallo! Was kann ich für Sie tun?",
+        "Hi! Wie kann ich Ihnen heute assistieren?",
+        "Hey! Wie geht es Ihnen?",
+        "Servus! Kann ich Ihnen irgendwie behilflich sein?",
+        "Grüß Gott! Wie kann ich Ihnen zur Seite stehen?",
+        "Servus! Brauchen Sie Unterstützung?",
+        "Grüß Gott! Wie darf ich Ihnen helfen?"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "heißt du",
+        "name",
+        "genannt",
+        "wer bist du?"
+      ],
+      "responses": [
+        "Ich bin der Moodle KI - Assistent von der FH Technikum Wien. Du kannst mir kurz Assistent nennen. ;)",
+        "Mein Name ist Assistent. Ich bin ein Chatbot von der Moodle von der FH Technikum Wien.",
+        "Ich heiße Assistent. Ich unterstütze die Studierenden in Moodle allgemeine Informatione zu bekommen."
+      ]
+    },
+    {
+      "tag": "about_assistence",
+      "patterns": [
+        "kannst du machen?",
+        "kannst du mir helfen?",
+        "bringst du zu mir?",
+        "bist du hier?"
+      ],
+      "responses": [
+        "Ich kann jedem mit allgemeine Informazionen helfen. ;)",
+        "Ich ünterstütze jeder über allgemeine Informatione zu bekommen."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "geht es dir?",
+        "geht's?",
+        "Alles in Ordnung?"
+      ],
+      "responses": [
+        "Mir geht es gut, danke! Wie kann ich Ihnen helfen?",
+        "Danke fürs nachfragen, ich bin ein KI-Chatbot, also mir geht es immer gut. Wie kann ich Ihnen helfen? ",
+        "Ich bin ein Programm, also mir geht es immer gut. :) Wie kann ich Ihnen helfen?"
+      ]
+    },
+    {
+      "tag": "help_request",
+      "patterns": [
+        "helfen",
+        "fragen?",
+        "Brauche Hilfe",
+        "assistieren",
+        "Unterstützung"
+      ],
+      "responses": [
+        "Natürlich! Wobei benötigen Sie Hilfe?",
+        "Gerne! Lassen Sie mir wissen wie ich Ihnen helfen kann.",
+        "Sicher, wie kann ich Ihnen behilflich sein?",
+        "Ja, erzählen Sie mir, wie ich Ihnen helfen kann."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Danke",
+        "Vielen Dank",
+        "Dankeschön"
+      ],
+      "responses": [
+        "Sehr gerne!",
+        "Immer wieder gerne!",
+        "Kein Problem!",
+        "Freut mich, dass ich helfen konnte!",
+        "Gerne geschehen!"
+      ]
+    },
+    {
+      "tag": "apology",
+      "patterns": [
+        "Entschuldigung",
+        "Verzeihung",
+        "Tut mir leid",
+        "Es tut mir leid",
+        "Ich entschuldige mich"
+      ],
+      "responses": [
+        "Alles in Ordnung, kein Grund zur Sorge.",
+        "Kein Problem, kann passieren.",
+        "Machen Sie sich keine Sorgen, alles ist gut.",
+        "Das ist schon in Ordnung, keine Ursache."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tschüss",
+        "Auf Wiedersehen",
+        "Bis bald",
+        "Bis später",
+        "Bis dann"
+      ],
+      "responses": [
+        "Tschüss! Ich hoffe, ich konnte Ihnen helfen.",
+        "Auf Wiedersehen! Ich wünsche Ihnen einen schönen Tag.",
+        "Bis bald! Wenn Sie weitere Fragen haben, stehe ich zur Verfügung.",
+        "Tschüss! Es war mir eine Freude, Ihnen zu assistieren.",
+        "Bis dann! Zögern Sie nicht, mich wieder zu kontaktieren."
+      ]
+    },
+    {
+      "tag": "admission-requirement-bachelor",
+      "patterns": [
+        "Zugangsvoraussetzungen für Bachelor?",
+        "Welche Unterlagen für Bachelor?",
+        "Voraussetzungen für Bachelor?"
+      ],
+      "responses": [
+        "Die Zugangsvoraussetzung zu einem FH-Bachelorstudiengang ist die allgemeine Universitätsreife oder eine einschlägige berufliche Qualifikation (vgl. § 4 Abs. 4 FHG idgF). Die allgemeine\nUniversitätsreife ist durch eine der folgenden Urkunden nachzuweisen: \n- österreichisches Reifezeugnis,\n- Zeugnis über Berufsreifeprüfung,\n- Studienberechtigungszeugnis gemäß § 64a UG,\n- ausländisches Zeugnis äquivalent zu österreichischen,\n- Urkunde über dreijähriges Studium. \n\n Mehr Information können Sie hier finden: https://cis.technikum-wien.at/cms/dms.php?id=1371"
+      ]
+    },
+    {
+      "tag": "tuition-fee-bachelor",
+      "patterns": [
+        "Studiengebühr",
+        "hoch ist die Studiengebühr für Bachelor?",
+        "Kosten für Bachelor?",
+        "Betrag von Bachelor?"
+      ],
+      "responses": [
+        "Die Studiengebühr für den Bachelor an der FH Technikum Wien beträgt 363,36 Euro pro Semester."
+      ]
+    }
+  ]
+}

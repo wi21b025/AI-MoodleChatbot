@@ -1,0 +1,37 @@
+{
+      "tag": "items",
+      "patterns": [
+        "Welche Artikel haben Sie?",
+        "Welche Arten von Artikeln gibt es?",
+        "Was verkaufen Sie?"
+      ],
+      "responses": [
+        "Wir verkaufen Kaffee und Tee",
+        "Wir haben Kaffee und Tee"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Nehmen Sie Kreditkarten?",
+        "Akzeptieren Sie Mastercard?",
+        "Kann ich mit Paypal bezahlen?",
+        "Nehmen Sie nur Bargeld?"
+      ],
+      "responses": [
+        "Wir akzeptieren VISA, Mastercard und Paypal",
+        "Wir akzeptieren die meisten gängigen Kreditkarten und Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Wie lange dauert die Lieferung?",
+        "Wie lange dauert der Versand?",
+        "Wann bekomme ich meine Lieferung?"
+      ],
+      "responses": [
+        "Die Lieferung dauert 2-4 Tage",
+        "Der Versand dauert 2-4 Tage"
+      ]
+    },
